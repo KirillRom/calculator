@@ -59,7 +59,7 @@ function sum() {
     if (eval(calc.value) === undefined) {
         calc.value = '0'
     } else if (eval(calc.value) === Infinity) {
-        calc.value = 'тебя на ноль поделить ?'
+        calc.value = 'на ноль делить нельзя  ?'
     }
     calc.value = eval(calc.value)
     let sum = `${num} = ${eval(calc.value)}`
